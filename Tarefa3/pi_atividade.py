@@ -6,9 +6,9 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 from PIL import Image                       # PIL: APENAS carregar/salvar
 
-IMG_Q1 = "imagens/img_1.png"           # Questao 1 (compressao)
-IMG_A  = "imagens/img_1.png"        # Questao 2 - muito detalhe
-IMG_B  = "imagens/img_1.png"            # Questao 2 - homogenea
+IMG_Q1 = "imagens/img_2.jpg"           # Questao 1 (compressao)
+IMG_A  = "imagens/img_2.jpg"        # Questao 2 - muito detalhe
+IMG_B  = "imagens/img_2.jpg"            # Questao 2 - homogenea
 SAIDA  = "saidas"
 
 # ============================ E/S ============================

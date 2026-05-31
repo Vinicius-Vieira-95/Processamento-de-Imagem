@@ -41,7 +41,7 @@ def carregar_cinza(caminho, tipo_fallback):
     if os.path.exists(caminho):
         print(f"[OK] {caminho}")
         return para_cinza(carregar(caminho))
-    print(f"[AVISO] '{caminho}' nao encontrado -> imagem SINTETICA (troque pela sua de drone!)")
+    print(f"[AVISO] '{caminho}' nao encontrado -> imagem SINTETICA")
     return _sintetica(tipo_fallback)
 
 # ===================== Q1: DCT / IDCT / QUANT =====================

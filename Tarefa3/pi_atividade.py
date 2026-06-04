@@ -104,8 +104,8 @@ def descritores(cinza):
 def main():
     os.makedirs(SAIDA, exist_ok=True)
     img_q1 = carregar_cinza(IMG_Q1, "mista")
-    img_a  = carregar_cinza(IMG_A,  "textura")
-    img_b  = carregar_cinza(IMG_B,  "ceu")
+    img_a  = carregar_cinza(IMG_A,  "A")
+    img_b  = carregar_cinza(IMG_B,  "B")
 
     # ---- Q1 ----
     print("\n=== Q1: Compressao DCT ===")
